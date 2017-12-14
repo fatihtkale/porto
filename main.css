@@ -32,18 +32,32 @@ html, body {
     text-shadow: 0px 0px 300px #fff;
     font-size: 500%;
 }
-.content .btn{
+.btn{
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
     font-size: 15px;
     text-transform: uppercase;
     color: white;
     background-color: transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
     border: solid white 3px;
     font-family: 'Montserrat', sans-serif;
+
 }
 .btn:hover{
-    border-radius: 30px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    color: white;
+    background-color: rgb(170, 228, 135);
 }
-
+.container{
+    background-color: #90C372;
+}
+.btn img{
+   width: 40px;
+   height: 40px;
+}
 p {
     font-size: 160%;
     line-height: 210%;
