@@ -38,18 +38,15 @@ html, body {
     font-size: 500%;
 }
 
-.btn {
-    border-radius: 9px;
-    font-family: sans-serif;
-    color: #036A81;
-    font-size: 135%;
-    padding: 10px 20px;
-    border: solid #036A81 3px;
+.content .btn{
     text-transform: uppercase;
-    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    border: 2px solid white;
 }
 
-.btn:hover {
-    color: #fff;
-    border: solid #fff;
+.btn:hover{
+    background-color: white;
+    color: black;
 }
