@@ -39,14 +39,15 @@ html, body {
 }
 
 .content .btn{
+    border-radius: 9px;
     text-transform: uppercase;
-    color: white;
+    color: #036A81;
     background-color: transparent;
-    padding: 10px;
-    border: 2px solid white;
+    padding: 10px 20px;;
+    border: solid #036A81 3px;
 }
 
 .btn:hover{
-    background-color: white;
-    color: black;
+    color: white;
+    border: solid #fff 3px;
 }
