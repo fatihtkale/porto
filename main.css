@@ -5,6 +5,7 @@ html, body {
     padding: 0px;
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 .intro {
     height: 100%;
@@ -51,7 +52,7 @@ html, body {
     color: white;
     background-color: rgb(170, 228, 135);
 }
-.container{
+.bg{
     background-color: #90C372;
 }
 .btn img{
@@ -59,9 +60,30 @@ html, body {
    height: 40px;
 }
 p {
-    font-size: 160%;
     line-height: 210%;
     text-align: justify;
     margin: 3%;
     font-family: sans-serif;
+}
+
+.Hireus{
+    background-color: #292C35;
+}
+.Hireus h1{
+    color: white;
+}
+.Hireus a{
+    color: white;   
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+.Hireus a{
+    color: white;   
+}
+.Hireus a:hover{
+    color: rgba(200, 200, 200);
+    text-decoration: none;
+}
+.exp{
+    color: white;
 }
