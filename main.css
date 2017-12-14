@@ -41,13 +41,7 @@ html, body {
     font-family: 'Montserrat', sans-serif;
 }
 .btn:hover{
-<<<<<<< HEAD
     border-radius: 30px;
-}
-
-=======
-    color: white;
-    border: solid #fff 3px;
 }
 
 p {
@@ -57,4 +51,3 @@ p {
     margin: 3%;
     font-family: sans-serif;
 }
->>>>>>> master
