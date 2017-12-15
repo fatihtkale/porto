@@ -30,7 +30,6 @@ html, body {
 .content h1{
     font-family: 'Raleway', sans-serif;
     color: #f9f3f4;
-    text-shadow: 0px 0px 300px #fff;
     font-size: 500%;
 }
 .btn{
@@ -54,9 +53,9 @@ html, body {
 }
 .bg{
     background-color: #90C372;
-    -moz-box-shadow:    0px 2px 1px 0px white;
-    -webkit-box-shadow: 0px 2px 1px 0px white;
-    box-shadow:         0px 2px 1px 0px white;
+    -moz-box-shadow:        0px 2px 1px 0px white;
+    -webkit-box-shadow:     0px 2px 1px 0px white;
+    box-shadow:             0px 2px 1px 0px white;
 }
 .btn img{
    width: 40px;
@@ -70,7 +69,7 @@ p {
 }
 
 .Hireus{
-    background-color: #292C35;
+    background-color: #1C1F28;
 }
 .Hireus h1{
     color: white;
@@ -88,5 +87,9 @@ p {
     text-decoration: none;
 }
 .exp{
+    color: white;
+}
+.AboutUs{
+    background-color: #292C35;
     color: white;
 }
