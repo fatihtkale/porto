@@ -49,10 +49,10 @@ html, body {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     color: white;
-    background-color: rgb(170, 228, 135);
+    background-color: rgb(210, 75, 84);
 }
 .bg{
-    background-color: #90C372;
+    background-color: #E34B54;
     -moz-box-shadow:        0px 2px 1px 0px white;
     -webkit-box-shadow:     0px 2px 1px 0px white;
     box-shadow:             0px 2px 1px 0px white;
@@ -92,4 +92,9 @@ p {
 .AboutUs{
     background-color: #292C35;
     color: white;
+    overflow: hidden;
 }
+.aboutusimgs img{
+    border-radius: 360px;
+}
+
