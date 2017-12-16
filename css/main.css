@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(https://video-images.vice.com/articles/589b938d47f11020ddd723a8/lede/1486594966397-pl.jpeg?crop=1xw:0.8426966292134831xh;center,center&resize=0:*);
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.content h1{
+    font-family: 'Raleway', sans-serif;
+    color: #f9f3f4;
+    font-size: 500%;
+}
+.btns{
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    padding: 10px;    
+}
+.btns:hover{
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    color: white;
+    background-color: rgb(210, 75, 84);
+}
+.bg{
+    background-color: #E34B54;
+    -moz-box-shadow:        0px 2px 1px 0px white;
+    -webkit-box-shadow:     0px 2px 1px 0px white;
+    box-shadow:             0px 2px 1px 0px white;
+}
+.btn img{
+   width: 40px;
+   height: 40px;
+}
+p {
+    line-height: 210%;
+    text-align: justify;
+    margin: 3%;
+    font-family: sans-serif;
+}
+
+.Hireus{
+    background-color: #1C1F28;
+}
+.Hireus h1{
+    color: white;
+}
+.Hireus a{
+    color: white;   
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+.Hireus a{
+    color: white;   
+}
+.Hireus a:hover{
+    color: rgba(200, 200, 200);
+    text-decoration: none;
+}
+.exp{
+    color: white;
+}
+.AboutUs{
+    background-color: #292C35;
+    color: white;
+    overflow: hidden;
+}
+.aboutusimgs img{
+    border-radius: 360px;
+}
+
