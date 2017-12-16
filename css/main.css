@@ -32,7 +32,7 @@ html, body {
     color: #f9f3f4;
     font-size: 500%;
 }
-.btn{
+.btns{
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     font-size: 15px;
@@ -41,11 +41,11 @@ html, body {
     background-color: transparent;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    border: solid white 3px;
     font-family: 'Montserrat', sans-serif;
-
+    border: none;
+    padding: 10px;    
 }
-.btn:hover{
+.btns:hover{
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     color: white;
@@ -98,6 +98,3 @@ p {
     border-radius: 360px;
 }
 
-.exp p{
-    text-align: center;
-}
