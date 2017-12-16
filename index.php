@@ -2,20 +2,16 @@
   if (empty($_POST) === false) {
     $errors = array();
     $email = $_POST['email'];
-    $lname = $_POST['lname'];
     $name = $_POST['name'];
     $message = $_POST['message'];
     
-    if (empty($name) === true || empty($email) == true || empty($message) == true || empty($lname) == true) {
+    if (empty($name) === true || empty($email) == true || empty($message) == true) {
         $errors[] = 'Please fill out everything in the form';
     }else {
         if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
             $errors [] = 'Please use a valid email';
         }
         if (ctype_alpha($name) ===  false) {
-            $errors[] = 'Use a real name please';
-        }
-        if (ctype_alpha($lname) ===  false) {
             $errors[] = 'Use a real name please';
         }
     } 
@@ -99,7 +95,7 @@
                 <h1 style="text-align: center;">Hire us!</h1>
                 <?php
                 if (isset($_GET['sent']) === true) {
-                    echo '<h1>Thanks for contacting us! </h1>';
+                    echo '<h1 class="sent">Thanks for contacting us! </h1>';
                 }else {
                     # code...
                 if (empty($errors) === false) {
@@ -113,7 +109,7 @@
                 <form action="" method="post">
                     <p>
                     <label for="name">Name:</label><br>
-                    <input type="text" name="lname" id="lname" class="contact-form" <?php if (isset($_POST['lname']) === true) { echo 'value="', strip_tags($_POST['lname']),'"'; } ?> >
+                    <input type="text" name="name" id="name" class="contact-form" <?php if (isset($_POST['name']) === true) { echo 'value="', strip_tags($_POST['name']),'"'; } ?> >
                     </p>
                    
                     <p>

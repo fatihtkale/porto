@@ -1,142 +1,156 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-html, body {
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 .intro {
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    background: url(https://video-images.vice.com/articles/589b938d47f11020ddd723a8/lede/1486594966397-pl.jpeg?crop=1xw:0.8426966292134831xh;center,center&resize=0:*);
-    display: table;
-    top: 0;
-    background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url(https://video-images.vice.com/articles/589b938d47f11020ddd723a8/lede/1486594966397-pl.jpeg?crop=1xw:0.8426966292134831xh;center,center&resize=0:*);
+  display: table;
+  top: 0;
+  background-size: cover;
 }
 .intro .inner {
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-    max-width: none;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
 }
 .content {
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
 }
-.content h1{
-    font-family: 'Raleway', sans-serif;
-    color: #f9f3f4;
-    font-size: 500%;
+.content h1 {
+  font-family: "Raleway", sans-serif;
+  color: #f9f3f4;
+  font-size: 500%;
 }
-.btn{
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    font-size: 15px;
-    text-transform: uppercase;
-    color: white;
-    background-color: transparent;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    border: solid white 3px;
-    font-family: 'Montserrat', sans-serif;
-
+.btns {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+  background-color: transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  font-family: "Montserrat", sans-serif;
+  border: none;
 }
-.btn:hover{
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    color: white;
-    background-color: rgb(210, 75, 84);
+.btns:hover {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  color: white;
+  background-color: rgb(210, 75, 84);
 }
-.bg{
-    background-color: #E34B54;
-    -moz-box-shadow:        0px 2px 1px 0px white;
-    -webkit-box-shadow:     0px 2px 1px 0px white;
-    box-shadow:             0px 2px 1px 0px white;
+.bg {
+  background-color: #e34b54;
+  border-radius: 5px;
+  padding: 10px; 
+  -moz-box-shadow: 0px 2px 1px 0px white;
+  -webkit-box-shadow: 0px 2px 1px 0px white;
+  box-shadow: 0px 2px 1px 0px white;
 }
-.btn img{
-   width: 40px;
-   height: 40px;
+.btns img {
+  width: 40px;
+  height: 40px;
 }
 p {
-    line-height: 210%;
-    text-align: justify;
-    margin: 3%;
-    font-family: sans-serif;
+  line-height: 210%;
+  text-align: justify;
+  margin: 3%;
+  font-family: sans-serif;
 }
 
-.Hireus{
-    background-color: #1C1F28;
+.Hireus {
+  background-color: #1c1f28;
 }
-.Hireus h1{
-    color: white;
+.Hireus h1 {
+  color: white;
 }
-.Hireus a{
-    color: white;   
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
+.Hireus a {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
 }
-.Hireus a{
-    color: white;   
+.Hireus a {
+  color: white;
 }
-.Hireus a:hover{
-    color: rgba(200, 200, 200);
-    text-decoration: none;
+.Hireus a:hover {
+  color: rgba(200, 200, 200);
+  text-decoration: none;
 }
-.exp{
-    color: white;
+.exp {
+  color: white;
 }
-.AboutUs{
-    background-color: #292C35;
-    color: white;
-    overflow: hidden;
+.AboutUs {
+  background-color: #292c35;
+  color: white;
+  overflow: hidden;
 }
-.aboutusimgs img{
-    border-radius: 360px;
+.aboutusimgs img {
+  border-radius: 360px;
 }
 
 .contact-form {
-    color: white;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    border-radius: 5px;
-    line-height: 22px;
-    background-color: transparent;
-    border: 2px solid #CC6666;    
-    transition: all 0.3s;
-    padding: 13px;
-    margin-bottom: 15px;
-    width: 100%;
-    box-sizing: border-box;
-    outline: 0; 
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #cc6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
 }
 
-.contact-form:focus {border: 2px solid #CC4949; }
+.contact-form:focus {
+  border: 2px solid #cc4949;
+}
 
 textarea {
-    height: 150px;
-    line-height: 150%;
-    resize: vertical;
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
 }
 
 [type="submit"] {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    width: 100%;
-    background: #CC6666;
-    border-radius: 5px;
-    border: 0;
-    cursor: pointer;
-    color: white;
-    font-size:24px;
-    padding-top:10px;
-    padding-bottom:10px;
-    transition: all 0.3s;
-    margin-top:-4px;
-    font-weight:700;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #cc6666;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
 }
-
-[type="submit"]:hover {background: #CC4949; }
+form {
+  color: white;
+}
+[type="submit"]:hover {
+  background: #cc4949;
+}
+.sent{
+    text-align: center;
+    border: 2px solid #cc4949; 
+    padding: 50px;
+    border-radius: 10px;
+}
