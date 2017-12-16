@@ -36,10 +36,12 @@ html, body {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     font-size: 15px;
-    color: white;
-    border: 2px solid rgb(210, 75, 84);
     text-transform: uppercase;
+    color: white;
     background-color: transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border: solid white 3px;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -50,7 +52,10 @@ html, body {
     background-color: rgb(210, 75, 84);
 }
 .bg{
-    background-color: transparent;
+    background-color: #E34B54;
+    -moz-box-shadow:        0px 2px 1px 0px white;
+    -webkit-box-shadow:     0px 2px 1px 0px white;
+    box-shadow:             0px 2px 1px 0px white;
 }
 .btn img{
    width: 40px;
