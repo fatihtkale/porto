@@ -95,11 +95,12 @@
                 <h1 style="text-align: center;">Hire us!</h1>
                 <?php
                 if (isset($_GET['sent']) === true) {
-                    echo '<h1 class="sent">Thanks for contacting us! </h1>';
+                    echo '<ul class="alert success">';
+                    echo '<li>Your message was sent!</li>';
+                    echo '</ul">';                                        
                 }else {
-                    # code...
                 if (empty($errors) === false) {
-                    echo '<ul>';
+                    echo '<ul class="alert error">';
                     foreach ($errors as $error) {
                         echo '<li>', $error ,'</li>';
                     }
