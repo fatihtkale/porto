@@ -1,21 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @SirHerbert
- Sign out
- Unwatch 2
-  Star 0  Fork 0 fatihtkale/porto
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
-Tree: 273bb83980 Find file Copy pathporto/index.php
-7a73187  19 minutes ago
-@SirHerbert SirHerbert Nothing speciall
-1 contributor
-RawBlameHistory      
-152 lines (137 sloc)  5.82 KB
 <?php
   if (empty($_POST) === false) {
     $errors = array();
@@ -166,15 +148,3 @@ RawBlameHistory
 </body>
 
 </html>
-© 2017 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
