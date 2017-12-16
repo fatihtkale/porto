@@ -31,7 +31,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -113,24 +113,22 @@
                 <form action="" method="post">
                     <p>
                     <label for="name">Name:</label><br>
-                    <input type="text" name="lname" id="lname" <?php if (isset($_POST['lname']) === true) { echo 'value="', strip_tags($_POST['lname']),'"'; } ?> >
+                    <input type="text" name="lname" id="lname" class="contact-form" <?php if (isset($_POST['lname']) === true) { echo 'value="', strip_tags($_POST['lname']),'"'; } ?> >
                     </p>
+                   
                     <p>
-                    <label for="name">Lastname:</label><br>
-                    <input type="text" name="name" id="name" <?php if (isset($_POST['name']) === true) { echo 'value="', strip_tags($_POST['name']),'"'; } ?> >
+                    <label for="email">Email:</label><br>
+                    <input type="text" name="email" id="email" class="contact-form" <?php if (isset($_POST['email']) === true) { echo 'value="', strip_tags($_POST['email']),'"'; } ?> >
                     </p>
 
                     <p>
-                    <label for="email">Email:</label><br>
-                    <input type="text" name="email" id="email" <?php if (isset($_POST['email']) === true) { echo 'value="', strip_tags($_POST['email']),'"'; } ?> >
-                    </p>
-                    <p>
                     <label for="message">Message:</label><br>
-                    <textarea rows="" cols="" name="message" id="message"><?php if (isset($_POST['message']) === true) { echo strip_tags($_POST['message']); } ?> </textarea>
+                    <textarea rows="" cols="" name="message" id="message" class="contact-form"><?php if (isset($_POST['message']) === true) { echo strip_tags($_POST['message']); } ?> </textarea>
                     </p>
                     <p>
                         <button type="submit">Submit</button>
                     </p>
+
                 </form>
                 <?php
                 }
