@@ -47,10 +47,10 @@
                                 <img src="img/info.png" alt=""> About us</img>
                             </button>
                             <button class="btns">
-                                <img src="img/hire.png" alt=""> Hire us</img>
+                                <img src="img/hire.png" alt=""> Contact us</img>
                             </button>
                             <button class="btns">
-                                <img src="img/work.png" alt=""> Projects</img>
+                                <img src="img/work.png" alt=""> Our work</img>
                             </button>
                         </div>
                     </div>
@@ -72,14 +72,14 @@
                             <img style="border:2px solid white; width:200px; height: 200px;" src="img/Fatih.jpg" alt="fatih">
                             <br>Fatih Toprakkale
                             <br>
-                            <br> CEO & Developer
+                            <br> CO-Founder & Developer
                         </div>
 
                         <div class="col-sm">
                             <img style="border:2px solid white; width:200px; height: 200px;" src="img/Rudy.jpg" alt="RUDY">
                             <br>Rudy
                             <br>
-                            <br> CEO & Developer
+                            <br> Founder & Developer
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
     <section class="Hireus">
         <div class="row">
             <div class="container">
-                <h1 style="text-align: center;">Hire us!</h1>
+                <h1 style="text-align: center;">Contact us!</h1>
                 <?php
                 if (isset($_GET['sent']) === true) {
                     echo '<ul class="alert success">';

@@ -44,7 +44,7 @@ body {
   transition-duration: 0.3s;
   font-family: "Montserrat", sans-serif;
   border: none;
-  margin: 10px;
+  padding: 5px;
 }
 .btns:hover {
   -webkit-transition-duration: 0.3s;
@@ -55,7 +55,6 @@ body {
 .bg {
   background-color: #e34b54;
   border-radius: 5px;
-  padding: 10px;
   -moz-box-shadow: 0px 2px 1px 0px white;
   -webkit-box-shadow: 0px 2px 1px 0px white;
   box-shadow: 0px 2px 1px 0px white;
