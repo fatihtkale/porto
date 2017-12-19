@@ -113,23 +113,23 @@
 
                 <form action="" method="post">
                     <p>
-                    <label for="name">Name:</label><br>
-                    <input type="text" name="name" id="name" class="contact-form" <?php if (isset($_POST['name']) === true) { echo 'value="', strip_tags($_POST['name']),'"'; } ?> >
+                   <br>
+                    <input type="text" name="name" id="name" class="contact-form" placeholder="Name" <?php if (isset($_POST['name']) === true) { echo 'value="', strip_tags($_POST['name']),'"'; } ?> >
                     </p>
 
                     <p>
-                    <label for="name">Last name:</label><br>
-                    <input type="text" name="lname" id="name" class="contact-form">
+                   <br>
+                    <input type="text" name="lname" id="name" class="contact-form" placeholder="Last Name">
                     </p>
                    
                     <p>
-                    <label for="email">Email:</label><br>
-                    <input type="text" name="email" id="email" class="contact-form" <?php if (isset($_POST['email']) === true) { echo 'value="', strip_tags($_POST['email']),'"'; } ?> >
+                    <br>
+                    <input type="text" name="email" id="email" class="contact-form" placeholder="Email"<?php if (isset($_POST['email']) === true) { echo 'value="', strip_tags($_POST['email']),'"'; } ?> >
                     </p>
 
                     <p>
-                    <label for="message">Message:</label><br>
-                    <textarea rows="" cols="" name="message" id="message" class="contact-form"><?php if (isset($_POST['message']) === true) { echo strip_tags($_POST['message']); } ?> </textarea>
+                    <br>
+                    <textarea rows="" cols="" name="message" id="message" class="contact-form" placeholder="Message"><?php if (isset($_POST['message']) === true) { echo strip_tags($_POST['message']); } ?> </textarea>
                     </p>
                     <p>
                         <button type="submit">Submit</button>
