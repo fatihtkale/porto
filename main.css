@@ -41,7 +41,6 @@ body {
   text-transform: uppercase;
   color: white;
   background-color: transparent;
-  -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   font-family: "Montserrat", sans-serif;
   border: none;

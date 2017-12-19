@@ -114,22 +114,19 @@
                 <form action="" method="post">
                     <p>
                    <br>
-                    <input type="text" name="name" id="name" class="contact-form" placeholder="Name" <?php if (isset($_POST['name']) === true) { echo 'value="', strip_tags($_POST['name']),'"'; } ?> >
+                    <input placeholder="Name:" type="text" name="name" id="name" class="contact-form" <?php if (isset($_POST['name']) === true) { echo 'value="', strip_tags($_POST['name']),'"'; } ?> >
                     </p>
 
                     <p>
-                   <br>
-                    <input type="text" name="lname" id="name" class="contact-form" placeholder="Last Name">
+                    <input placeholder="Last name:" type="text" name="lname" id="name" class="contact-form">
                     </p>
                    
                     <p>
-                    <br>
-                    <input type="text" name="email" id="email" class="contact-form" placeholder="Email"<?php if (isset($_POST['email']) === true) { echo 'value="', strip_tags($_POST['email']),'"'; } ?> >
+                    <input placeholder="Email:" type="text" name="email" id="email" class="contact-form" <?php if (isset($_POST['email']) === true) { echo 'value="', strip_tags($_POST['email']),'"'; } ?> >
                     </p>
 
                     <p>
-                    <br>
-                    <textarea rows="" cols="" name="message" id="message" class="contact-form" placeholder="Message"><?php if (isset($_POST['message']) === true) { echo strip_tags($_POST['message']); } ?> </textarea>
+                    <textarea name="message" id="message" class="contact-form"><?php if (isset($_POST['message']) === true) { echo strip_tags($_POST['message']); } ?> </textarea>
                     </p>
                     <p>
                         <button type="submit">Submit</button>
