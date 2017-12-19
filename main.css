@@ -36,6 +36,7 @@ body {
 .btns {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
+  padding: 5px;
   font-size: 15px;
   text-transform: uppercase;
   color: white;
@@ -44,7 +45,6 @@ body {
   transition-duration: 0.3s;
   font-family: "Montserrat", sans-serif;
   border: none;
-  padding: 5px;
 }
 .btns:hover {
   -webkit-transition-duration: 0.3s;
@@ -54,6 +54,7 @@ body {
 }
 .bg {
   background-color: #e34b54;
+  margin: 0 auto;
   border-radius: 5px;
   -moz-box-shadow: 0px 2px 1px 0px white;
   -webkit-box-shadow: 0px 2px 1px 0px white;
@@ -151,7 +152,6 @@ form {
 
 .alert{
   color: white;
-  list-style-type: none;
 }
 .success{
   background-color: rgb(102, 153, 75);

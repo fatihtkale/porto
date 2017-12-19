@@ -4,7 +4,7 @@
     $email = $_POST['email'];
     $name = $_POST['name'];
     $message = $_POST['message'];
-    
+    $lname = $_POST['lname'];
     if (empty($name) === true || empty($email) == true || empty($message) == true) {
         $errors[] = 'Please fill out everything in the form';
     }else {
@@ -13,6 +13,9 @@
         }
         if (ctype_alpha($name) ===  false) {
             $errors[] = 'Use a real name please';
+        }
+        if (ctype_alpha($lname) ===  false) {
+            $errors[] = 'Use a real last name please';
         }
     } 
     if (empty($errors) === true) {
@@ -50,7 +53,7 @@
                                 <img src="img/hire.png" alt=""> Contact us</img>
                             </button>
                             <button class="btns">
-                                <img src="img/work.png" alt=""> Our work</img>
+                                <img src="img/work.png" alt=""> Our Work</img>
                             </button>
                         </div>
                     </div>
@@ -72,14 +75,14 @@
                             <img style="border:2px solid white; width:200px; height: 200px;" src="img/Fatih.jpg" alt="fatih">
                             <br>Fatih Toprakkale
                             <br>
-                            <br> CO-Founder & Developer
+                            <br>CO-Founder
                         </div>
 
                         <div class="col-sm">
                             <img style="border:2px solid white; width:200px; height: 200px;" src="img/Rudy.jpg" alt="RUDY">
                             <br>Rudy
                             <br>
-                            <br> Founder & Developer
+                            <br>Founder 
                         </div>
                     </div>
                 </div>
@@ -107,10 +110,16 @@
                     echo '</ul>';
                 }
                 ?>
+
                 <form action="" method="post">
                     <p>
                     <label for="name">Name:</label><br>
                     <input type="text" name="name" id="name" class="contact-form" <?php if (isset($_POST['name']) === true) { echo 'value="', strip_tags($_POST['name']),'"'; } ?> >
+                    </p>
+
+                    <p>
+                    <label for="name">Last name:</label><br>
+                    <input type="text" name="lname" id="name" class="contact-form">
                     </p>
                    
                     <p>
