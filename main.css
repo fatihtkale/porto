@@ -11,7 +11,7 @@ body {
 .intro {
   height: 100%;
   width: 100%;
-  margin: auto;
+  margin: auto 0;
   background: url(https://video-images.vice.com/articles/589b938d47f11020ddd723a8/lede/1486594966397-pl.jpeg?crop=1xw:0.8426966292134831xh;center,center&resize=0:*);
   display: table;
   top: 0;
@@ -32,6 +32,10 @@ body {
   font-family: "Raleway", sans-serif;
   color: #f9f3f4;
   font-size: 500%;
+}
+.title{
+  text-align: center;
+  font-size: 10em;
 }
 .btns {
   -webkit-transition-duration: 0.3s;
@@ -71,7 +75,7 @@ p {
 }
 
 .Hireus {
-  background-color: #1c1f28;
+  background-color: #292C35;
 }
 .Hireus h1 {
   color: white;
@@ -92,7 +96,7 @@ p {
   color: white;
 }
 .AboutUs {
-  background-color: #292c35;
+  background-color: #292C35;
   color: white;
   overflow: hidden;
 }
@@ -157,4 +161,24 @@ form {
 }
 .error{
   background-color: #CC3847;
+}
+.btnwork{
+  border: 2px solid #e34b54;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+.btnwork:hover{
+  border: 2px solid #ec5761;  
+  text-decoration: none;
+  color: white;
+}
+.work{
+  background-color: #1c1f28;
+}
+.cards{
+  border: 2px solid #ec5761;  
+  color: white;
+  border-radius: 5px;
+  background-color: transparent;
 }
