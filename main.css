@@ -176,7 +176,35 @@ form {
 .work{
   background-color: #1c1f28;
 }
-.card-work img{
-  width: 350px;
-  height: 200px;
+.spacer{
+  padding: 5px;
+}
+.cards{
+  border-radius: 5px;
+  border: 2px solid #E34B54;
+  margin: 5px;
+}
+.card-body{
+  color: white;
+  background-color: #E34B54;
+}
+.button{
+  padding: 10px;
+  color: white;
+  background-color: #CC3847;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.button:hover{
+  color: white;
+  background-color: rgb(170, 48, 60);
+}
+
+@media screen and (max-width: 480px) {
+  .cards {
+    display: block;
+  }
 }

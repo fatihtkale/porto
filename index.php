@@ -76,7 +76,7 @@
                     <div class="col-sm">
                         <img style="border:2px solid white; width:200px; height: 200px;" src="img/Rudy.jpg" alt="RUDY">
                         <br>Rudy
-                        <br>
+                        <br>Looks like a fortnite characther
                         <br>Founder
                      </div>
                   </div>
@@ -87,14 +87,38 @@
          <br>
       </section>
       <section class="work">
-        <h1 style="color:white; text-align: center;">Our work</h1>
-        <div class="form-inline">
-            <div class="card-work">
-                <img src="img/work1.jpg" alt="hairsalon">
+    <h1 style="color:white; text-align: center;">Our work</h1>
+    <div class="row align-items-center justify-content-center">
+        <div class="cards" style="width: 20rem;">
+            <img class="card-img-top" src="img/work1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Hair By Gothers</h4>
+                <p style="word-spacing: 1px;">Hair By Gothers is a women hair salon, based in Denmark, Copenhagen, Gorhersvej. </p>
+                <a href="#" class="btn button">Visit Site</a>
             </div>
         </div>
-        <br>
-      </section>
+
+        <div class="cards" style="width: 20rem;">
+            <img class="card-img-top" src="img/work1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p style="word-spacing: 1px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn button">Visit Site</a>
+            </div>
+        </div>
+
+        <div class="cards" style="width: 20rem;">
+            <img class="card-img-top" src="img/work1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p style="word-spacing: 1px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn button">Visit Site</a>
+            </div>
+        </div>
+
+   </div>
+   <br>
+</section>
       <section class="Hireus">
          <div class="row">
             <div class="container">
