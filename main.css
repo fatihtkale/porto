@@ -176,9 +176,7 @@ form {
 .work{
   background-color: #1c1f28;
 }
-.cards{
-  border: 2px solid #ec5761;  
-  color: white;
-  border-radius: 5px;
-  background-color: transparent;
+.card-work img{
+  width: 350px;
+  height: 200px;
 }
